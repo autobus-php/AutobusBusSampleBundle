@@ -1,8 +1,8 @@
 {
-  "name": "autobus-php/autobus-sample-bundle",
+  "name": "autobus-php/autobus-bus-sample-bundle",
   "license": "MIT",
   "type": "symfony-bundle",
-  "description": "AutobusSampleBundle",
+  "description": "AutobusBusSampleBundle",
   "authors": [
     {
       "name": "Michael BOUVY",
@@ -15,7 +15,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Autobus\\Bundle\\SampleBundle\\": ""
+      "Autobus\\Bundle\\BusSampleBundle\\": ""
     }
   },
   "require": {
