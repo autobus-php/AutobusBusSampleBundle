@@ -9,7 +9,7 @@ use Autobus\Bundle\BusBundle\Runner\AbstractRunner;
 
 class HelloWorldRunner extends AbstractRunner
 {
-    protected function process(Context $context, Job $job, Execution $execution)
+    protected function run(Context $context, Job $job, Execution $execution)
     {
         return $context->setMessage('Hello world!');
     }

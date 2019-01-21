@@ -50,7 +50,7 @@ class UserListRunner extends AbstractRunner implements ExportRunnerInterface
      *
      * @return mixed
      */
-    protected function process(Context $context, Job $job, Execution $execution)
+    protected function run(Context $context, Job $job, Execution $execution)
     {
         $this->request = $context->getRequest();
         $this->users = array(
