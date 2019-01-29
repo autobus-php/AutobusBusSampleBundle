@@ -13,4 +13,14 @@ class HelloWorldRunner extends AbstractRunner
     {
         return $context->setMessage('Hello world!');
     }
+
+    /**
+     * @param string $type
+     *
+     * @return bool
+     */
+    public function supports(string $type): bool
+    {
+        return $type == 'web';
+    }
 }
