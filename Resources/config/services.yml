@@ -1,4 +1,7 @@
 services:
+    _defaults:
+        public: true
+
     Autobus\Bundle\BusSampleBundle\Runner\HelloWorldRunner:
         arguments:
           - '@event_dispatcher'
